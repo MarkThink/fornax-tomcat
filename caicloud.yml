@@ -1,0 +1,7 @@
+build:
+  dockerfile_name: Dockerfile
+
+postbuild:
+  image: docker-registry.caicloudprivatetest.com/caicloud/tomcat:8
+  commands:
+    - echo "postbuild"
