@@ -1,4 +1,4 @@
-FORM java:7
+FORM docker-registry.caicloudprivatetest.com/caicloud/java:7
 
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
